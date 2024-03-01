@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=m, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <div class="nomUsuario">
+            <label for="username" class="form-label">Nombre completo</label>
+            <input type="text" class="form-control " id="nombre" placeholder="Nombre completo">
+            
+          </div>
+          <div class="cedula">
+            <label for="cedula" class="form-label">Cedula</label>
+            <input type="text" class="form-control " id="cedula" placeholder="Cedula" required>
+          </div>
+
+          <div class="correo">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control " id="email" placeholder="Correo electrónico" required>
+         </div>
+            <div class="telefono">
+                <label for="telefono">Numero de telefono</label>
+                <input type="number" name="" id="numeroContacto" placeholder="Numero de telefono" required>
+            </div>
+            <button class="btn btn-primary" style="margin-inline: 10px;" type="button" onclick="registrarUsuario()">Guardar</button>
+            
+
+    </main>
+    <script src="scriipts.js"></script>
+</body>
+</html>
